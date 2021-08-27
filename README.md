@@ -62,12 +62,7 @@ This project was built using these technologies.
 
 ### Requirements
 
-- Node.js
-- NPM
-- jest
-- Enzymes
-- The MealDb API
-- propTypes
+
 
 ### How to Install 
 
@@ -83,14 +78,19 @@ git clone git@github.com:IBUNHABIBU/TZ-social-events-booking.git
 cd TZ-social-events-booking
 `
 
- `$npm install `
+ `$bundle install --without-production`
+
+ `$sudo service postgresql start`
+
+ `$rails db:migrate`
  
- 
- `$npm run start`
+ `$rails server`
  
 Enjoy playing it.
 
 ### Testing
+
+Navigate to the project folder make sure Rspec is installed and then run the following command
 
  `$npm run test `
 
