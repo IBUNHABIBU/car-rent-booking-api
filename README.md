@@ -102,7 +102,7 @@ Navigate to the project folder make sure Rspec is installed and then run the fol
 | `bundle install` | Install project dependencies |
 | `sudo service postgresql start` | Starting the database |
 | `rails db:migrate` | Database migration |
-| `rails server` | start the server |
+| `rails server` | start the server
 
 <!-- ### How to play -->
 
