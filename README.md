@@ -92,16 +92,17 @@ Enjoy playing it.
 
 Navigate to the project folder make sure Rspec is installed and then run the following command
 
- `$npm run test `
+ `$rspec -f d `
 
 
 ## Useful Commands
 
 | Command | Description |
 |---------|-------------|
-| `npm install` | Install project dependencies |
-| `npm start` | Build the project and open web server running project |
-| `npm run build` | Builds code bundle with production settings (minification, uglification, etc..) |
+| `bundle install` | Install project dependencies |
+| `sudo service postgresql start` | Starting the database |
+| `rails db:migrate` | Database migration |
+| `rails server` | start the server |
 
 <!-- ### How to play -->
 
