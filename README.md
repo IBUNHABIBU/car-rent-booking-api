@@ -8,8 +8,8 @@
 <p align="center">
   <a href="git@github.com:IBUNHABIBU/TZ-social-events-booking.git">
     <p align="center">
-      <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React" width="100" height="100">
-      <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png" alt="Redux" width="100" height="100">
+      <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rails/rails.png" alt="rails" width="100" height="100">
+      
      </p>
   </a>
 
@@ -23,7 +23,7 @@
 </p>
 
 
-![screenshot](https://github.com/IBUNHABIBU/TZ-social-events-booking/blob/react-redux-mealDb-fetch-api/public/home.PNG)
+![screenshot](https://github.com/IBUNHABIBU/TZ-social-events-booking/blob/rails-redux-mealDb-fetch-api/public/home.PNG)
 
 ## Table of Contents
 
@@ -47,7 +47,7 @@ Capstone projects are solo projects at the end of each of the Microverse Main Te
 
 ### Project specifications
 
-This is Rails final capstone project is based on an app to book a Social Hall(Event). I have built a REST API using Ruby on rails as a backend where the front end will be the react-redux. 
+This is Rails final capstone project is based on an app to book a Social Hall(Event). I have built a REST API using Ruby on rails as a backend where the front end will be the rails-redux. 
 
 ### Features
 
