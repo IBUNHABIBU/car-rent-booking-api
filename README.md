@@ -13,8 +13,8 @@
      </p>
   </a>
 
-  <h2 align="center"> CATALOGUE OF RECIPES REACT CAPSTONE PROJECT</h2>
-  <h3 align="center"> Is the food recipe website that you can fetch defferent food recipe from the API</h3>
+  <h2 align="center"> TZ-SOCIAL-EVENTS-BOOK RAILS API FINAL CAPSTONE PROJECT</h2>
+  <h3 align="center"> This is the rails API to build a event booking</h3>
 
   <p align="center">
     <a href="https://github.com/IBUNHABIBU/TZ-social-events-booking/issues">Report Bug</a>
@@ -47,23 +47,17 @@ Capstone projects are solo projects at the end of each of the Microverse Main Te
 
 ### Project specifications
 
-This is React-redux capstone project is based on a catalogue of recipes. I have built a catalogue, that is, a browsable list of items that you can filter and access to the details of one item. All data are meals recipes that come from TheMealDb API.
+This is Rails final capstone project is based on an app to book a Social Hall(Event). I have built a REST API using Ruby on rails as a backend where the front end will be the react-redux. 
 
 ### Features
 
-  - It displays all foods meal in all categories when visiting the home page.
-  - It displays all food meals within the same category when selecting the category by clicking the link or by filtering.
-  - It displays the details of a meal when you select your desired meal.
-
+  
 
 <!-- BUILD WITH -->
 ## Built With
 
 This project was built using these technologies.
-* React
-* Redux
-* Bootstrap
-* The MealDB API
+* Rails
 
 
 ### Requirements
