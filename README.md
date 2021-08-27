@@ -6,7 +6,7 @@
 <br />
 
 <p align="center">
-  <a href="git@github.com:IBUNHABIBU/catalogue_of_recipes.git">
+  <a href="git@github.com:IBUNHABIBU/TZ-social-events-booking.git">
     <p align="center">
       <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React" width="100" height="100">
       <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png" alt="Redux" width="100" height="100">
@@ -17,13 +17,13 @@
   <h3 align="center"> Is the food recipe website that you can fetch defferent food recipe from the API</h3>
 
   <p align="center">
-    <a href="https://github.com/IBUNHABIBU/catalogue_of_recipes/issues">Report Bug</a>
-    <a href="https://github.com/IBUNHABIBU/catalogue_of_recipes/issues">Request Feature</a>
+    <a href="https://github.com/IBUNHABIBU/TZ-social-events-booking/issues">Report Bug</a>
+    <a href="https://github.com/IBUNHABIBU/TZ-social-events-booking/issues">Request Feature</a>
   </p>
 </p>
 
 
-![screenshot](https://github.com/IBUNHABIBU/catalogue_of_recipes/blob/react-redux-mealDb-fetch-api/public/home.PNG)
+![screenshot](https://github.com/IBUNHABIBU/TZ-social-events-booking/blob/react-redux-mealDb-fetch-api/public/home.PNG)
 
 ## Table of Contents
 
@@ -82,11 +82,11 @@ To run this locally, clone the repository, navigate to its containing directory.
 #### Follow these commands step by step:-
 
 `
-git clone git@github.com:IBUNHABIBU/catalogue_of_recipes.git
+git clone git@github.com:IBUNHABIBU/TZ-social-events-booking.git
 `
 
 `
-cd catalogue_of_recipes
+cd TZ-social-events-booking
 `
 
  `$npm install `
@@ -143,14 +143,14 @@ Credits go to
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/IBUNHABIBU/catalogue_of_recipes.svg?style=flat-square
-[contributors-url]: https://github.com/IBUNHABIBU/catalogue_of_recipes/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/IBUNHABIBU/catalogue_of_recipes.svg?style=flat-square
-[forks-url]: https://github.com/IBUNHABIBU/catalogue_of_recipes/network/members
-[stars-shield]: https://img.shields.io/github/stars/IBUNHABIBU/catalogue_of_recipes.svg?style=flat-square
-[stars-url]: https://github.com/IBUNHABIBU/catalogue_of_recipes/stargazers
-[issues-shield]: https://img.shields.io/github/issues/IBUNHABIBU/catalogue_of_recipes.svg?style=flat-square
-[issues-url]: https://github.com/IBUNHABIBU/catalogue_of_recipes/issues
+[contributors-shield]: https://img.shields.io/github/contributors/IBUNHABIBU/TZ-social-events-booking.svg?style=flat-square
+[contributors-url]: https://github.com/IBUNHABIBU/TZ-social-events-booking/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/IBUNHABIBU/TZ-social-events-booking.svg?style=flat-square
+[forks-url]: https://github.com/IBUNHABIBU/TZ-social-events-booking/network/members
+[stars-shield]: https://img.shields.io/github/stars/IBUNHABIBU/TZ-social-events-booking.svg?style=flat-square
+[stars-url]: https://github.com/IBUNHABIBU/TZ-social-events-booking/stargazers
+[issues-shield]: https://img.shields.io/github/issues/IBUNHABIBU/TZ-social-events-booking.svg?style=flat-square
+[issues-url]: https://github.com/IBUNHABIBU/TZ-social-events-booking/issues
 
 ## 📝 License
 
