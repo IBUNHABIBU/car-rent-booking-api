@@ -7,6 +7,12 @@ RSpec.describe User, type: :model do
      expect(user.name).to eq('Maja')
    end
    
+   it 'should give a user email' do 
+    user.email = 'maja@gmail.com'
+    expect(user.email).to eq('maja@gmail.com')
+   end
+
+   it { should have_secure_password }
   end
-  it { should have_secure_password }
+  
 end
