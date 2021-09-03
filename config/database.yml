@@ -17,6 +17,9 @@
 default: &default
   adapter: postgresql
   encoding: unicode
+  host: localhost
+  username: postgres
+  password: Voda#0763
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -82,5 +85,4 @@ test:
 production:
   <<: *default
   database: events_booking_production
-  username: events_booking
-  password: <%= ENV['EVENTS_BOOKING_DATABASE_PASSWORD'] %>
+  
