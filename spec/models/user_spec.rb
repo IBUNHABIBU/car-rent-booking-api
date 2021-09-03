@@ -6,6 +6,7 @@ RSpec.describe User, type: :model do
      user.name = 'Maja'
      expect(user.name).to eq('Maja')
    end
+   
   end
   it { should have_secure_password }
 end
