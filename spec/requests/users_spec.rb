@@ -5,7 +5,7 @@ RSpec.describe UsersController, type: :controller do
     before do
       create(:user, id: 1)
     end
-    
+
     it { should route(:post, '/users').to(action: :create) }
     
     it do
@@ -17,7 +17,7 @@ RSpec.describe UsersController, type: :controller do
           password: 'password'
         }
       }
-      should permit(:name, :email, :password).
+      should permit(:name, :email, :password, :password_confirmation).
         for(:create, params: params).on(:user)
     end
   end
