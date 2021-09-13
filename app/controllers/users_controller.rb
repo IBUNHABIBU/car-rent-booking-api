@@ -9,8 +9,10 @@ class UsersController < ApplicationController
         } 
     else
      render json: {
-            status: :internal_server_error
-        }
+       error: user.errors.full_messages, 
+       status: :internal_server_error 
+      }
+
     end
   end
 
