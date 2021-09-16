@@ -1,10 +1,10 @@
 class SessionsController < ApplicationController
   include CurrentUserConcern
 
-  user = User.find_by(email: params[:session][:email].downcase)
-    debugger
+  user = User.find_by(email: params[:session][:email])
+
   if user
-   log_in user
+    session[:user_id] = user.id
    render json: {
     status: :created,
     logged_in: true,
@@ -15,4 +15,5 @@ class SessionsController < ApplicationController
     status: :unauthorized
    }
   end
+
 end
