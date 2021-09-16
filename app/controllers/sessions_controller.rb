@@ -3,9 +3,10 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by(email: params[:session][:email])
+         .
 
     if user
-      session[:user_id] = user.id
+      log_in user
       render json: {
         status: :created,
         logged_in: true,
