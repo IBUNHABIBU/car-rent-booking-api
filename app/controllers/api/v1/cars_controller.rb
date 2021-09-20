@@ -12,7 +12,7 @@ module Api
     private 
 
     def car_params
-     params.require(:car).permit()
+     params.require(:car).permit(:color, :engine, :year, model)
     end
    end
   end
