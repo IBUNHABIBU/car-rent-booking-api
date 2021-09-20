@@ -7,6 +7,11 @@ module Api
 
     def create
      car = Car.new(car_params)
+     if car.save
+      render json: car, status: :created
+     else 
+      render json: book.erros.full_messages, status: :unproccessable_entity
+     end
     end
 
     private 
