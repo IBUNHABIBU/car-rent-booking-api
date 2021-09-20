@@ -3,7 +3,11 @@ Rails.application.routes.draw do
   
   resources :sessions, only: [:create]
   resources :users, only: [:create]
-  resources :cars, only: [:index]
+  namespace :api do
+    namespace :v1 do
+      resources :cars, only: [:index]
+    end
+  end
   delete :logout, to: "sessions#logout"
   get :logged_in, to: "sessions#logged_in"
 end

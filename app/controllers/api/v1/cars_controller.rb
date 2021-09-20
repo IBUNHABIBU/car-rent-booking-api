@@ -2,7 +2,7 @@ module Api
   module V1
    class CarsController < ApplicationController
     def index
-     render json: Book.all
+     render json: Car.all
     end
    end
   end
