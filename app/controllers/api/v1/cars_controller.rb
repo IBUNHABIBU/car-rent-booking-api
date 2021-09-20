@@ -14,6 +14,11 @@ module Api
      end
     end
 
+    def destroy
+     Car.find(params[:id]).destroy!
+     head :no_content 
+    end
+
     private 
 
     def car_params
