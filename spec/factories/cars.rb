@@ -3,6 +3,6 @@ FactoryBot.define do
     color { "MyString" }
     engine { "MyString" }
     year { "MyString" }
-    admin_user { nil }
+    user { nil }
   end
 end
