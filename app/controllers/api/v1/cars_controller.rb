@@ -7,7 +7,7 @@ module Api
       end
 
       def create
-        car = Car.new(car_params)
+        car = current_user.cars.build(car_params)
         if car.save
           render json: car, status: :created
         else
