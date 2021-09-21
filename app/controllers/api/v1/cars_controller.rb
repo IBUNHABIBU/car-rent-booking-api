@@ -3,7 +3,7 @@ module Api
     class CarsController < ApplicationController
       def index
         cars = Car.all
-        render json: CarRepresenter.new(cars).as_json
+        render json: CarsRepresenter.new(cars).as_json
       end
 
       def create

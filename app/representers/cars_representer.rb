@@ -14,5 +14,5 @@ class CarsRepresenter
   end
  end
  private 
- attr_reader: cars
+ attr_reader :cars
 end
