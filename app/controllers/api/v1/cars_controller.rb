@@ -1,7 +1,6 @@
 module Api
   module V1
    class CarsController < ApplicationController
-    rescue from ActiveRecord::RecordNotDestroyed, with: :not_destroyed
     def index
      render json: Car.all
     end
@@ -28,9 +27,6 @@ module Api
      params.require(:car).permit(:color, :engine, :year, model)
     end
 
-    def not_destroyed
-      render json: {}, status: :unproccessable_entity 
-    end
    end
   end
 end
