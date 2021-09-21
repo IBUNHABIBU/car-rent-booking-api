@@ -8,9 +8,11 @@ class SessionsController < ApplicationController
     if user
       log_in user
       render json: {
-        status: :created,
-        logged_in: true,
-        user: user
+        auth: {
+          status: :created,
+          logged_in: true,
+          user: user
+        }
       }
     else
       render json: {
@@ -22,8 +24,10 @@ class SessionsController < ApplicationController
   def logged_in
     if @current_user
       render json: {
-        logged_in: true,
-        user: @current_user
+        auth: {
+          logged_in: true,
+          user: @current_user
+        }
       }
     else
       render json: {

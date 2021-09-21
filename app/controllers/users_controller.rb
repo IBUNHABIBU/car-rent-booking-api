@@ -3,9 +3,10 @@ class UsersController < ApplicationController
     user = User.new(user_params)
     if user.save
       log_in user
-      render json: {
+      render json:{ auth: {
         status: :created,
         user: user
+      }
       }
     else
       render json: {
