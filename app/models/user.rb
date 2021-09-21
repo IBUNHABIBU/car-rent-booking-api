@@ -4,4 +4,5 @@ class User < ApplicationRecord
   validates :email, presence: true, uniqueness: { case_sensitive: true }, length: { maximum: 16, minimum: 3 }
   validates :password, presence: true, length: { maximum: 10, minimum: 3 }
   has_many :cars
+  has_many :bookings
 end
