@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   resources :users, only: [:create]
   namespace :api do
     namespace :v1 do
-      resources :cars, only: [:index, :create, :destroy]
-      resources :bookings, only: [:index, :create, :destroy]
+      resources :cars
+      resources :bookings, only: [:index, :create, :destroy, :show]
     end
   end
   delete :logout, to: "sessions#logout"
