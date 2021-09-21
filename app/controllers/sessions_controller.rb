@@ -2,8 +2,8 @@ class SessionsController < ApplicationController
   include CurrentUserConcern
 
   def create
-    user = User.find_by(email: params["user"]["email"])
-         .try(:authenticate, params["user"]["password"])
+    user = User.find_by(email: params['user']['email'])
+      .try(:authenticate, params['user']['password'])
 
     if user
       log_in user
@@ -27,7 +27,7 @@ class SessionsController < ApplicationController
       }
     else
       render json: {
-        logged_in: false,
+        logged_in: false
       }
     end
   end
