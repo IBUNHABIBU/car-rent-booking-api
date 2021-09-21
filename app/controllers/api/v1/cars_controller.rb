@@ -11,7 +11,7 @@ module Api
         if car.save
           render json: car, status: :created
         else
-          render json: car.erros.full_messages, status: :unproccessable_entity
+          render json: car.errors.full_messages, status: :unproccessable_entity
         end
       end
 
@@ -24,7 +24,7 @@ module Api
       private
 
       def car_params
-        params.require(:car).permit(:color, :engine, :year, model)
+        params.require(:car).permit(:color, :engine, :year)
       end
     end
   end
