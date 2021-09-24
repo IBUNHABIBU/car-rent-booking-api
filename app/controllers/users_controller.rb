@@ -3,10 +3,7 @@ class UsersController < ApplicationController
     user = User.new(user_params)
     if user.save
       log_in user
-      render json:{
-        status: :created,
-        user: user
-      }
+      render json: { details: UserRepresenter.new(user).as_json, status: :created, logged_in: true }
     else
       render json: {
         error: user.errors.full_messages,
