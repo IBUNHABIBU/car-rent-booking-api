@@ -1,4 +1,4 @@
-class bookingsRepresenter
+class BookingsRepresenter
    def initialize(bookings)
     @bookings = bookings
    end

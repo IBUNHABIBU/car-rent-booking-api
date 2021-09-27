@@ -9,7 +9,7 @@ module Api
      def create
        booking = current_user.bookings.build(booking_params)
        if booking.save
-         render json: booking, status: :created
+         render json: { appointment: booking, status: :created }
        else
          render json: booking.errors.full_messages, status: :unproccessable_entity
        end

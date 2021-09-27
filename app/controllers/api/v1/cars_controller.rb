@@ -9,7 +9,7 @@ module Api
       def create
         car = current_user.cars.build(car_params)
         if car.save
-          render json: car, status: :created
+          render json: { result: car, status: :created}
         else
           render json: car.errors.full_messages, status: :unproccessable_entity
         end
@@ -24,7 +24,7 @@ module Api
       private
 
       def car_params
-        params.require(:car).permit(:color, :engine, :year)
+        params.require(:car).permit(:color, :engine, :year, :image)
       end
     end
   end

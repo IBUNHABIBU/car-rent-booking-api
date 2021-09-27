@@ -3,14 +3,14 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by(email: params['user']['email'])
-      .try(:authenticate, params['user']['password'])
+     
 
-    if user
+    if user && user.authenticate(params['user']['password'])
       log_in user
       render json: { details: UserRepresenter.new(user).as_json, status: :created, logged_in: true }
-    else
+    else 
       render json: {
-        status: :unauthorized
+        error: 'user not found'
       }
     end
   end
