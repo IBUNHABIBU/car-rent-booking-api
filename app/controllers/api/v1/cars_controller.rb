@@ -11,7 +11,7 @@ module Api
         if car.save
           render json: { result: car, status: :created}
         else
-          render json: car.errors.full_messages, status: :unproccessable_entity
+          render json: { errors: car.errors }
         end
       end
 
