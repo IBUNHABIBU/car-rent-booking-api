@@ -7,22 +7,17 @@ module Api
       end
 
       def create
-        car = current_user.cars.build(car_params)
-        if car.save
-          render json: { result: car, status: :created}
+        @car = current_user.cars.build(car_params)
+        if @car.save
+          render json: { result: @car, status: :created}
         else
-          render json: { errors: car.errors }
+          render json: { errors: @car.errors }
         end
       end
 
       def show
-        car = current_user.cars.find(params[:id])
-        puts car 
-        if car
-         render json: { details: CarRepresenter.new(car).as_json }
-        else 
-          render json: {error: car.errors.full_messages}
-        end
+        @car = Car.find(params[:id])
+        render json: CarRepresenter.new(@car).as_json
       end
       def destroy
         Car.find(params[:id]).destroy!
