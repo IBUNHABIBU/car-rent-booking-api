@@ -16,10 +16,10 @@ module Api
       end
 
       def show
-        @car = current_user.cars.find(params[:id])
-        puts @car.color
-        if @car
-         render json: { details: CarRepresenter.new(@car).as_json }
+        car = current_user.cars.find(params[:id])
+        puts car 
+        if car
+         render json: { details: CarRepresenter.new(car).as_json }
         else 
           render json: {error: car.errors.full_messages}
         end
