@@ -17,7 +17,7 @@ module Api
 
       def show
         car = current_user.cars.find(params[:id])
-        render json: { details: car }
+        render json: { details: CarRepresenter.new(car).as_json }
       end
       def destroy
         Car.find(params[:id]).destroy!
