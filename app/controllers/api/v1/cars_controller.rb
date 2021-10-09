@@ -1,6 +1,7 @@
 module Api
   module V1
     class CarsController < ApplicationController
+      include ActionController::Serialization
       def index
         cars = Car.all
         render json: CarsRepresenter.new(cars).as_json
@@ -28,7 +29,7 @@ module Api
       private
 
       def car_params
-        params.require(:car).permit(:color, :engine, :year, :image)
+        params.require(:car).permit(:color, :engine, :year, :car_image, :car_model, :price)
       end
     end
   end

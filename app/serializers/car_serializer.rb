@@ -1,7 +1,7 @@
-class CarSerializer < ActiveModel::Serializer
- attributes :id, :color, :engine, :year, :image, :url
+# class CarSerializer < ActiveModel::Serializer
+#  attributes :id, :color, :engine, :year, :car_image, :url
 
- def image
-   rails_blob_path(object.image, only_path: true) if object.image.attached?
- end
-end
+#  def car_image
+#   Rails.application.routes.url_helpers.rails_blob_path(self.car_image, only_path: true)
+#  end
+# end

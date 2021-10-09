@@ -24,7 +24,7 @@ module Api
      private
 
      def booking_params
-       params.require(:booking).permit(:name, :model, :pickup, :return, :location)
+       params.require(:booking).permit(:name, :model, :pickup, :return_date, :location)
      end
    end
  end
