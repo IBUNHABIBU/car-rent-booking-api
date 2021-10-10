@@ -1,7 +1,7 @@
 class Car < ApplicationRecord
   include Rails.application.routes.url_helpers
-  belongs_to :user
   has_one_attached :image
+  belongs_to :user
   validates :color, presence: true
   validates :engine, presence: true
   validates :year, presence: true
