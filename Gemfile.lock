@@ -234,6 +234,7 @@ DEPENDENCIES
   factory_bot_rails
   image_processing (~> 1.2)
   listen (~> 3.3)
+  mini_magick
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors
