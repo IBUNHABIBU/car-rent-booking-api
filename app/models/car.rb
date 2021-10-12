@@ -7,9 +7,6 @@ class Car < ApplicationRecord
   validates :year, presence: true
   validates :car_model, presence: true
   validates :price, presence: true
-  # validates :image, attached: true, file_content_type: { allow: ['image/jpeg', 'image/png'] }
+  validates :image, presence: true
   
-  def get_image_url
-    url_for(self.image)
-  end
 end
