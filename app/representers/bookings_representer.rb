@@ -9,7 +9,7 @@ class BookingsRepresenter
       id: booking.id,
       name: booking.name,
       pickup: booking.pickup,
-      return: booking.return,
+      return_date: booking.return_date,
       location: booking.location
      }
     end
