@@ -11,7 +11,7 @@ module Api
        if booking.save
          render json: { appointment: booking, status: :created }
        else
-         render json: booking.errors.full_messages, status: :unproccessable_entity
+         render json: { errors: booking.errors.full_messages }
        end
      end
 
