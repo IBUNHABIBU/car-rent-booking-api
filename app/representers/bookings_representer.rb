@@ -8,8 +8,8 @@ class BookingsRepresenter
      {
       id: booking.id,
       name: booking.name,
-      pickup: booking.pickup,
-      return_date: booking.return_date,
+      pickup: booking.pickup.strftime("%Y-%m-%d %H:%M:%S") ,
+      return_date: booking.return_date.strftime("%Y-%m-%d  %H:%M:%S") ,
       location: booking.location
      }
     end
