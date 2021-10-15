@@ -16,7 +16,7 @@ RSpec.describe Booking, type: :model do
 
   describe 'booking validation' do
     it { should validate_presence_of(:pickup) }
-    it { should validate_presence_of(:engine) }
-    it { should validate_presence_of(:year) }
+    it { should validate_presence_of(:model) }
+    it { should validate_presence_of(:location) }
   end
 end
