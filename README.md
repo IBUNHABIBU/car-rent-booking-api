@@ -78,6 +78,8 @@ cd car-rent-booking
  `$bundle install --without-production`
 
  `$sudo service postgresql start`
+ 
+ `$rails db:setup`
 
  `$rails db:migrate`
  
