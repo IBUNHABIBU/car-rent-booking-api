@@ -11,8 +11,8 @@
       <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rails/rails.png" alt="rails" width="100" height="100">
   </a>
 
-  <h2 align="center"> TZ-SOCIAL-EVENTS-BOOK RAILS API FINAL CAPSTONE PROJECT</h2>
-  <h3 align="center"> This is the rails API to build a event booking</h3>
+  <h2 align="center"> TZ-CAR RENTAL RAILS API FINAL CAPSTONE PROJECT</h2>
+  <h3 align="center"> This is the rails API to build a car booking</h3>
 
   <p align="center">
     <a href="https://github.com/IBUNHABIBU/TZ-social-events-booking/issues">Report Bug</a>
@@ -20,8 +20,6 @@
   </p>
 </p>
 
-
-![screenshot](https://github.com/IBUNHABIBU/TZ-social-events-booking/blob/rails-redux-mealDb-fetch-api/public/home.PNG)
 
 ## Table of Contents
 
@@ -45,12 +43,13 @@ Capstone projects are solo projects at the end of each of the Microverse Main Te
 
 ### Project specifications
 
-This is Rails final capstone project is based on an app to book a Social Hall(Event). I have built a REST API using Ruby on rails as a backend where the front end will be the rails-redux. 
+This is Rails final capstone project is based on an app to book a Car. I have built a REST API using Ruby on rails as a backend where the front end will be the react-redux. 
 
 ### Features
-
+- User authentication
+- Create Car and appointment
+- Display all cars and appointments
   
-
 <!-- BUILD WITH -->
 ## Built With
 
