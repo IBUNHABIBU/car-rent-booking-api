@@ -5,6 +5,6 @@ FactoryBot.define do
     year { '2021' }
     car_model { 'New model' }
     price { '2300usd' }
-    user { nil }
+    user { 'Juma' }
   end
 end

@@ -12,7 +12,6 @@ RSpec.describe Car, type: :model do
       expect(car.engine).to eq('v8')
     end
 
-    it { should have_one_attached_image }
   end
 
   describe 'car validation' do
