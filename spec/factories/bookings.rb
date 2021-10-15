@@ -1,10 +1,10 @@
 FactoryBot.define do
   factory :booking do
-    color { 'Red' }
-    engine { 'v8' }
-    year { '2021' }
-    car_model { 'New model' }
-    price { '2300usd' }
+    name { 'Juma' }
+    model { 'New model' }
+    pickup { '2021-10-17 12:00' }
+    return_date { '2021-10-18 12:00' }
+    location { 'Mwanza' }
     user { nil }
   end
 end
