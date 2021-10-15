@@ -12,11 +12,10 @@ RSpec.describe Booking, type: :model do
       expect(booking.model).to eq('new model')
     end
 
-    it { should have_one_attached_image }
   end
 
   describe 'booking validation' do
-    it { should validate_presence_of(:color) }
+    it { should validate_presence_of(:pickup) }
     it { should validate_presence_of(:engine) }
     it { should validate_presence_of(:year) }
   end
