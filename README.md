@@ -54,7 +54,7 @@ This is Rails final capstone project is based on an app to book a Car. I have bu
 ## Built With
 
 This project was built using these technologies.
-* Rails
+* Ruby on Rails
 
 
 ### Requirements
@@ -68,11 +68,11 @@ To run this locally, clone the repository, navigate to its containing directory.
 #### Follow these commands step by step:-
 
 `
-git clone git@github.com:IBUNHABIBU/TZ-social-events-booking.git
+git clone git@github.com:IBUNHABIBU/car-rent-booking.git
 `
 
 `
-cd TZ-social-events-booking
+cd car-rent-booking
 `
 
  `$bundle install --without-production`
