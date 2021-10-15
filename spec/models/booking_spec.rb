@@ -1,5 +1,23 @@
 require 'rails_helper'
-
 RSpec.describe Booking, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  let(:booking) { create(:booking) }
+  describe 'Creating booking' do
+    it 'should give a booking name' do
+      booking.name = 'Juma'
+      expect(booking.name).to eq('Juma')
+    end
+
+    it 'should give a booking email' do
+      booking.model = 'new model'
+      expect(booking.model).to eq('new model')
+    end
+
+    it { should have_one_attached_image }
+  end
+
+  describe 'booking validation' do
+    it { should validate_presence_of(:color) }
+    it { should validate_presence_of(:engine) }
+    it { should validate_presence_of(:year) }
+  end
 end

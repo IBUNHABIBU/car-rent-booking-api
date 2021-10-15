@@ -8,5 +8,4 @@ class Car < ApplicationRecord
   validates :car_model, presence: true, uniqueness: { case_sensitive: true }
   validates :price, presence: true, uniqueness: { case_sensitive: true }
   # validates :image, presence: true
-  
 end

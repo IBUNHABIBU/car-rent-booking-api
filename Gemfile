@@ -17,11 +17,11 @@ gem 'puma', '~> 5.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'rack-cors', require: 'rack/cors'
 # gem 'active_model_serializers', '~> 0.10.0'
-gem "aws-sdk-s3", require: false
+gem 'aws-sdk-s3', require: false
 gem 'cloudinary'
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'
-gem "mini_magick"
+gem 'mini_magick'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
