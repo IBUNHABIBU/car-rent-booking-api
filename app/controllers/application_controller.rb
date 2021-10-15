@@ -13,7 +13,7 @@ class ApplicationController < ActionController::API
 
   private
 
-  def not_destroyed(e)
-    render json: { errors: e.record.errors }, status: :unproccessable_entity
+  def not_destroyed(res)
+    render json: { errors: res.record.errors }, status: :unproccessable_entity
   end
 end

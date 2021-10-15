@@ -11,7 +11,6 @@ RSpec.describe Car, type: :model do
       car.engine = 'v8'
       expect(car.engine).to eq('v8')
     end
-
   end
 
   describe 'car validation' do

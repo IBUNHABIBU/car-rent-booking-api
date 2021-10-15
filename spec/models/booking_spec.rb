@@ -11,7 +11,6 @@ RSpec.describe Booking, type: :model do
       booking.model = 'new model'
       expect(booking.model).to eq('new model')
     end
-
   end
 
   describe 'booking validation' do
