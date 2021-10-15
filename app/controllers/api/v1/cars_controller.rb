@@ -11,7 +11,7 @@ module Api
         if @car.save
           render json: { result: @car, status: :created}
         else
-          render json: { errors: @car.errors }
+          render json: { errors: @car.errors.full_messages }
         end
       end
 
@@ -21,7 +21,6 @@ module Api
       end
       def destroy
         Car.find(params[:id]).destroy!
-
         head :no_content
       end
 
