@@ -54,12 +54,12 @@ This is Rails final capstone project is based on an app to book a Car. I have bu
 
 | Endpoint | Description |
 |---------|-------------|
-| `bundle install` | Install project dependencies |
-| `sudo service postgresql start` | Starting the database |
-| `rails db:migrate` | Database migration |
-| `rails server` | start the server |
-| `rubocop -a` | Fix all the lint errors automatically |
-| `bundle exec rspec` | Run rspec tests |
+| `https://final-capstone-rails-api.herokuapp.com/` | baseUrl |
+| `baseUrl/users` | users resource |
+| `baseUrl/logout` | logout |
+| `baseUrl/logged_in` | login |
+| `baseUrl/api/v1/cars` | cars resource |
+| `baseUrl/api/v1/bookings` | bookings resource |
 
   
 <!-- BUILD WITH -->
