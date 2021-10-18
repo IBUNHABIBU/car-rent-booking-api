@@ -127,8 +127,6 @@ Navigate to the project folder make sure Rspec is installed and then run the fol
 
 [Live Demo ](https://final-capstone-rails-api.herokuapp.com/api/v1/cars) of the project
 
-## [The video presentation of the project](https://www.youtube.com/watch?v=VW7r0R3_HqY&t=20s) 
-
 ## Authors
 
 👤 **Salum Habibu** 
