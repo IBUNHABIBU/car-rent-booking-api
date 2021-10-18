@@ -125,7 +125,7 @@ Navigate to the project folder make sure Rspec is installed and then run the fol
 
 ## Live link
 
-[Live Demo ](https://slm-foodrecipe.herokuapp.com/) of the project
+[Live Demo ](https://final-capstone-rails-api.herokuapp.com/api/v1/cars) of the project
 
 ## [The video presentation of the project](https://www.youtube.com/watch?v=VW7r0R3_HqY&t=20s) 
 
