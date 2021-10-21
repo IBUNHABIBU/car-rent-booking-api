@@ -147,7 +147,6 @@ Give a :star: if you like this project!
 Credits go to 
 - [Mr Eric Mbouwe](https://github.com/EricMbouwe), [Emmanuel Kamala](https://github.com/emmanuelkamala) and [Marcelo Araújo](https://github.com/marcelomaidden)(Microverse students) for their help to resolve the bugs.
 - All my standup team for their help.
-- [The MealDb API](https://www.themealdb.com/api.php) API for using their API for free.
 - All TSE who reviewed my project.
 - All those helped me to resolve bugs.
 
