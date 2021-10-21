@@ -62,6 +62,10 @@ This is Rails final capstone project is based on an app to book a Car. I have bu
 | `baseUrl/api/v1/bookings` | bookings resource |
 
   
+<h3 align="center"> Entity Relationship Diagram (ERD) </h3>
+
+![screenshot](https://github.com/IBUNHABIBU/car-rent-booking-api/blob/rails-api-setup/app/assets/ERD.png)
+
 <!-- BUILD WITH -->
 ## Built With
 
@@ -125,10 +129,6 @@ Navigate to the project folder make sure Rspec is installed and then run the fol
 ## Live link
 
 [Live Demo ](https://final-capstone-rails-api.herokuapp.com/api/v1/cars) of the project
-
-Entity Relationship Diagram (ERD)
-
-![screenshot](https://github.com/IBUNHABIBU/car-rent-booking-api/blob/rails-api-setup/app/assets/ERD.png)
 
 ## Authors
 
