@@ -126,6 +126,10 @@ Navigate to the project folder make sure Rspec is installed and then run the fol
 
 [Live Demo ](https://final-capstone-rails-api.herokuapp.com/api/v1/cars) of the project
 
+Entity Relationship Diagram (ERD)
+
+![screenshot](https://github.com/IBUNHABIBU/car-rent-booking-api/blob/rails-api-setup/app/assets/ERD.png)
+
 ## Authors
 
 👤 **Salum Habibu** 
