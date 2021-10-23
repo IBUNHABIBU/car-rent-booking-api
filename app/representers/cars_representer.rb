@@ -9,8 +9,7 @@ class CarsRepresenter
         id: car.id,
         color: car.color,
         engine: car.engine,
-        year: car.year,
-        url: car.url
+        year: car.year
       }
     end
   end

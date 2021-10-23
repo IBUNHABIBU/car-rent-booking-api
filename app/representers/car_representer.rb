@@ -10,8 +10,7 @@ class CarRepresenter
       engine: car.engine,
       year: car.year,
       car_model: car.car_model,
-      price: car.price,
-      url: car.url
+      price: car.price
     }
   end
 
