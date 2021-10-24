@@ -5,6 +5,6 @@ class Car < ApplicationRecord
   validates :color, presence: true
   validates :engine, presence: true
   validates :year, presence: true
-  validates :car_model, presence: true
+  # validates :car_model, presence: true
   validates :price, presence: true
 end
