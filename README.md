@@ -85,7 +85,7 @@ To run this locally, clone the repository, navigate to its containing directory.
 #### Follow these commands step by step:-
 
 `
-git clone git@github.com:IBUNHABIBU/car-rent-booking.git
+ git@github.com:IBUNHABIBU/car-rent-booking.git
 `
 
 `
