@@ -10,7 +10,8 @@ class CarsRepresenter
         color: car.color,
         engine: car.engine,
         year: car.year,
-        
+        title: car.title,
+        price: car.price
       }
     end
   end
