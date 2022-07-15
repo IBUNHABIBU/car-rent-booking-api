@@ -11,7 +11,8 @@ class CarsRepresenter
         engine: car.engine,
         year: car.year,
         title: car.title,
-        price: car.price
+        price: car.price,
+        image: car.image
       }
     end
   end
