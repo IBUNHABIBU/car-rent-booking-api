@@ -8,11 +8,11 @@ class CarsRepresenter
       {
         id: car.id,
         color: car.color,
-        # engine: car.engine,
-        # year: car.year,
-        # title: car.title,
-        # price: car.price,
-        # image: car.image,
+        engine: car.engine,
+        year: car.year,
+        title: car.title,
+        price: car.price,
+        image: car.image,
         imageUrl: car.imageUrl
       }
     end
