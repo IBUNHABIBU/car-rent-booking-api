@@ -3,7 +3,8 @@ module Api
     class CarsController < ApplicationController
       def index
         cars = Car.all
-        render json: CarsRepresenter.new(cars).as_json
+        # render json: CarsRepresenter.new(cars).as_json
+        render json: CarSerializer.new(cars).serializable_hash[:data][:attributes]
       end
 
       def create
@@ -28,7 +29,7 @@ module Api
       private
 
       def car_params
-        params.require(:car).permit(:color)
+        params.require(:car).permit(:color, :image)
       end
     end
   end
