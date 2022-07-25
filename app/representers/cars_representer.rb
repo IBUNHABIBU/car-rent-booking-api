@@ -8,12 +8,12 @@ class CarsRepresenter
       {
         id: car.id,
         color: car.color,
-        engine: car.engine,
-        year: car.year,
-        title: car.title,
-        price: car.price,
-        image: car.image,
-        image_url: car.image_url
+        # engine: car.engine,
+        # year: car.year,
+        # title: car.title,
+        # price: car.price,
+        # image: car.image,
+        # image_url: car.image_url
       }
     end
   end

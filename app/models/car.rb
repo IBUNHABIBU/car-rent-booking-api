@@ -1,5 +1,5 @@
 class Car < ApplicationRecord
-  has_one_attached :image
+  # has_one_attached :image
   belongs_to :user
   # validates :color, :engine, :year, :title, :price, :image, presence: true
   validates :color, presence: true
