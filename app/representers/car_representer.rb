@@ -11,7 +11,8 @@ class CarRepresenter
       year: car.year,
       title: car.title,
       price: car.price
-      image: car.image
+      image: car.image,
+      image_url: car.image_url
     }
   end
 
