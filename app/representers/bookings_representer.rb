@@ -11,7 +11,7 @@ class BookingsRepresenter
         model: booking.model,
         pickup: booking.pickup.strftime('%Y-%m-%d %H:%M:%S'),
         return_date: booking.return_date.strftime('%Y-%m-%d  %H:%M:%S'),
-        location: booking.location,
+        location: booking.location
       }
     end
   end

@@ -2,12 +2,12 @@ module Api
   module V1
     class CarsController < ApplicationController
       def index
-        case params[:scope]
-        when "recent"
-          @cars = Car.recent
-        else
-          @cars = Car.all
-        end
+        @cars = case params[:scope]
+                when 'recent'
+                  Car.recent
+                else
+                  Car.all
+                end
         render json: CarsRepresenter.new(@cars).as_json
       end
 
